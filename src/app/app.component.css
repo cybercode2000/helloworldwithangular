@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+::placeholder {
+    color: white
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-login {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url('../assets/istockphoto-490063067-612x612.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.side-one {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.side-one h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.side-one p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.side2-login {
+    background: rgba(53, 53, 53, 0.84);
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 80px;
+}
+
+.side2-login h5 {
+    color: white;
+    font-size: 25px;
+    padding-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 56px;
+}
+
+.forms select {
+    background: rgba(255, 204, 0, 0.4);
+    border: 1px solid #FFCC00;
+    color: white;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.forms input {
+    border: 1px solid #FFCC00;
+    background: transparent;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.forms button {
+    background: #FFCC00;
+    border: 1px solid #FFCC00;
+    border-radius: 4px;
+    width: 100%;
+    padding: 7px;
+    font-weight: bold;
+}
